@@ -9,7 +9,7 @@ import org.overture.ftc.OverDcMotor;
 @Autonomous(name = "Auto", group = "Test")
 public class TestOpMode extends LinearOpMode {
     @Override
-    public void runOpMode() throws InterruptedException {
+    public void runOpMode() {
         OverDcMotor dcMotor = new OverDcMotor(hardwareMap, "lower_arm");
 
         waitForStart();
