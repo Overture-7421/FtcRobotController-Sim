@@ -9,7 +9,7 @@ import org.overture.ftc.OverDcMotor;
 public class TestOpMode extends LinearOpMode {
     @Override
     public void runOpMode() {
-        OverDcMotor dcMotor = new OverDcMotor(hardwareMap, "lower_arm");
+        OverDcMotor dcMotor = new OverDcMotor(hardwareMap, "ChassisRightMotor");
 
         waitForStart();
 
